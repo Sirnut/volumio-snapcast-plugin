@@ -6,6 +6,7 @@ First of all, updates and the dependencies of the plugins should be installed:
 
 1.  Install updates `sudo apt-get update`
 2.  Install Build Essentials with `sudo apt-get install build-essential`
+3.  Update NPM `sudo npm update -g`
 
 
 ## Quick start
