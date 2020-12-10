@@ -14,18 +14,18 @@ First of all, updates and the dependencies of the plugins should be installed:
 
 1. SSH into server, be sure to enable SSH via volumio.local/DEV beforehand
 2. Clone repository
-> git clone https://github.com/Sirnut/volumio-snapcast-plugin.git
+ 'git clone https://github.com/Sirnut/volumio-snapcast-plugin.git'
 3. CD into volumio-snapcast-plugin directory	
-> cd volumio-snapcast-plugin
+ 'cd volumio-snapcast-plugin'
 4. Remove the volumio-snapcast-plugin.zip
-> rm volumio-snapcast-plugin.zip
+ 'rm volumio-snapcast-plugin.zip'
 	if you don't do this, the install will fail because it will try and mv two zips, volumio-snapcast-plugin.zip and the one created by the next command (snapcast.zip) to one location in /tmp.
 5. Install the plugin
-> volumio plugin install
+ 'volumio plugin install'
 6. Wait a few minutes for message saying install was successful.
 	_or until it reaches 100, asks if you want to activate and then freezes after a large wall of text_
 7. If able to reboot. Otherwise just power cycle if you froze AFTER installation confirmed
-> sudo reboot
+ 'sudo reboot'
 7. Login to Volumio IU & set everything like you want it
 8. Configure the output format (sampling, bit depth, codec, etc.).
 9. Configure the soundcard for the client.
