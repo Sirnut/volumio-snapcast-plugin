@@ -9,6 +9,16 @@ First of all, updates and the dependencies of the plugins should be installed:
 3.  Update NPM `sudo npm update -g`
 4.	Set timezone `sudo dpkg-reconfigure tzdata`
 
+# Fresh Install Summary
+
+I find that I have the most success getting a snapcast system to work by:
+1.	Installing fresh copies of Volumio to each device and then go through the first four steps highlighted above
+2.	Once complete I start with the server, and first install volspotconnect2 through through volumios UI
+3.	I then SSH into the server and install snapcast following the steps below
+4.	Once running with no issue I install snapcast onto my client devices
+5.	In the end, my server has volspotconnect2>snapcast
+6.	My clients JUST have snapcast (with their servers turned off)
+
 ## Quick start
 
 1. SSH into server, be sure to enable SSH via volumio.local/DEV beforehand
